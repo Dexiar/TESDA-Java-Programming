@@ -11,6 +11,6 @@ class Main{
 
         toy1.setPrice(toy1.price * 0.5);
         System.out.println(toy1.price);
-
+        System.out.println(toy1.brand);
     }
 }
