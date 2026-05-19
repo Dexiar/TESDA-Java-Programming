@@ -1,3 +1,5 @@
+package chapter1;
+import tester.Toy;
 
 class Main{
     public static void main(String[] args) {
