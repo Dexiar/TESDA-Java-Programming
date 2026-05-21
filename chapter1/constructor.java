@@ -6,6 +6,8 @@ public class constructor {
         Chick chooks = new Chick();
         Chick gannam = chicken;
         chicken.Chick();
+        Chicken jolChicken = new Chicken();
+        System.out.println("end of program");
     }
 }
 
@@ -15,5 +17,37 @@ class Chick{
     }
     public void Chick(){
         System.out.println("I'm a method");
+    }
+}
+
+class Chicken{
+    int numEggs = 0; //initialized on line, class variable or instance variable
+    String name;
+    public Chicken(){
+        name = "Duke"; //initialized on constructor 
+    }
+}
+
+class Swan{
+    int numEggs = 0;
+    public static void main(String[] args) {
+        Swan mother = new Swan();
+        mother.numEggs = 90; //writing object fields
+        System.out.println(mother.numEggs); //reading object fields 
+    }
+
+}
+
+class Name{
+    String first = "Theodore";
+    String last = "Moose";
+    String full = first + last;
+    public static void main(String[] args) {
+        Name name1 = new Name();
+        System.out.println(name1.full);
+        name1.first = "Lan";
+        name1.last = "Sevilleno";
+        name1.full = name1.first + name1.last;
+        System.out.println(name1.full);
     }
 }
