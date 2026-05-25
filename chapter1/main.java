@@ -9,7 +9,7 @@
     // void public static main2(String[] args)❌
     // void public static main2(String[] 12marc)❌
 
-package chapter1;
+
 import tester.Toy;
 import java.util.*;
 import otherFolder.hello;
