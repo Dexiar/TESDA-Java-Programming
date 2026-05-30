@@ -16,9 +16,6 @@ public class LoopLesson {
 
         System.out.println("end of program");
         
-
-
-        
         int b = 0;
         for(;b<10;){
             System.out.println("Value of b: " + b++);
@@ -39,5 +36,14 @@ public class LoopLesson {
         for(String color: colors){
             System.out.println("Color: " + color);
         }
+
+ROW_TABLE:        for (int i = 1; i<=10; i++){
+COL_TABLE:            for(int y =1; y<=10; y++){
+                System.out.print(y*i+"\t");
+            }
+            System.out.println();
+        }
+        
+
     }
 }
