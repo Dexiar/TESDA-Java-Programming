@@ -24,6 +24,18 @@ public class LoopLesson {
         Scanner q = new Scanner(System.in);
         System.out.println("ENTER NUMBER");
         int limit = q.nextInt();
+        for(byte x=1; x<=limit; x++){
+            if(limit>127)
+                break;
+            for(int y=1; y<=x; y++){
+                System.out.print(x);
+            }
+            System.out.println();
+        }
+
+
+
+
         for(int x =1; x<limit; x++){
             for(int y=1; y<=x; y++){
                 System.out.print(x);
@@ -39,11 +51,12 @@ public class LoopLesson {
 
 ROW_TABLE:        for (int i = 1; i<=10; i++){
 COL_TABLE:            for(int y =1; y<=10; y++){
-                System.out.print(y*i+"\t");
+                    if (y==5)
+                        continue COL_TABLE;
+                    System.out.print(i*y + "\t");
             }
             System.out.println();
         }
-        
-
+    
     }
 }
