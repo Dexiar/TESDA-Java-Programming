@@ -1,3 +1,5 @@
+//concatenation
+
 public class Task2 {
     public static void main(String[] args) {
         byte num1 = 0;

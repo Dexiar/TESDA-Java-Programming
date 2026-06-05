@@ -1,3 +1,5 @@
+//palindrome identifier
+
 import java.util.Scanner;
 
 public class Task4 {
@@ -14,6 +16,5 @@ public class Task4 {
         System.out.println(
             (input.equals(reversed))?"The input string is a palindrome":"The input string is not a palindrome"
         );
-
     }
 }

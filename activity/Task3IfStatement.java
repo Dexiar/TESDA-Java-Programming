@@ -1,3 +1,5 @@
+//Finding the highest number
+
 import java.util.Scanner;
 
 public class Task3IfStatement {
@@ -31,6 +33,7 @@ public class Task3IfStatement {
 }
 
 // import java.util.Scanner;
+
 
 // public class Task3 {
 
