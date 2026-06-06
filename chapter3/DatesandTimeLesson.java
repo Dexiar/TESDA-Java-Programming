@@ -13,5 +13,7 @@ public class DatesandTimeLesson {
         LocalTime time3 = LocalTime.of(14, 45, 30, 400);
         LocalDateTime ldt1 = LocalDateTime.of(1999, 12, 19,14, 45);
         LocalDateTime ldt2 = LocalDateTime.of(date1,time1);
+
+        System.out.println(date1.plusDays(40).minusWeeks(3));
     }
 }
