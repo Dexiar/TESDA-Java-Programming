@@ -1,6 +1,7 @@
 package otherFolder;
 
 import chapter4.AccessModifier;
+import static chapter4.VarArgsLesson.getEarthsGravity;;
 
 //rmp return type method name parenthesis 
 public class hello {
@@ -21,6 +22,6 @@ class MoonFlower extends AccessModifier{
         mf.greetMe();
         mf.greetMe3();
         // mf.greetMe4();
-        
+        System.out.println(getEarthsGravity());
     }
 }
