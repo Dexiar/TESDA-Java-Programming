@@ -69,7 +69,6 @@ class Animal{
     }
 
 
-
     @Override
     public String toString() {
         return species;
