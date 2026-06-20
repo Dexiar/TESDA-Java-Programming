@@ -1,6 +1,4 @@
 //Finding the highest number
-
-
 import java.util.Scanner;
 
 public class Task5 {
