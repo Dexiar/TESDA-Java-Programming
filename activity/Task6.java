@@ -10,9 +10,10 @@ public class Task6 {
             }
 
             if (num %2 == 0){
-                System.out.println(num);
+                System.out.print(", " + num);
             }
         }
 
     }
 }
+

@@ -9,6 +9,7 @@ public class Task4 {
 
         System.out.println("Enter a string: ");
         String input = scanner.nextLine();
+        scanner.close();
 
         StringBuilder sb = new StringBuilder(input);
         String reversed = sb.reverse().toString();
@@ -18,3 +19,4 @@ public class Task4 {
         );
     }
 }
+
